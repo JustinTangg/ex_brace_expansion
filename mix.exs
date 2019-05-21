@@ -3,8 +3,8 @@ defmodule ExBraceExpansion.Mixfile do
 
   def project do
     [app: :ex_brace_expansion,
-     version: "0.0.2",
-     elixir: "~> 1.0",
+     version: "0.0.3",
+     elixir: "~> 1.4",
      description: description,
      package: package,
      deps: deps]
@@ -29,7 +29,6 @@ defmodule ExBraceExpansion.Mixfile do
   defp deps do
     [
       {:ex_doc, "~> 0.7", only: :dev},
-      {:markdown, github: "devinus/markdown"}
     ]
   end
 
