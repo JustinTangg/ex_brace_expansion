@@ -5,9 +5,9 @@ defmodule ExBraceExpansion.Mixfile do
     [app: :ex_brace_expansion,
      version: "0.0.3",
      elixir: "~> 1.4",
-     description: description,
-     package: package,
-     deps: deps]
+     description: description(),
+     package: package(),
+     deps: deps()]
   end
 
   # Configuration for the OTP application
